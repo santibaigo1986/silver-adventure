@@ -1,12 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace MaestroDetalleCRUD.Models
 {
     public class Producto
     {
-        public int ProductoId { get; set; }   
+      public int ProductoId { get; set; } 
+      [Required]
+      public string Nombre { get; set; }=null!;
+      [Required]
+      public decimal Precio { get; set; }
+
+
+
     }
 }
