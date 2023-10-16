@@ -1,4 +1,10 @@
+using MaestroDetalleCRUD.Models.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<ApplicationDbContext>(options=>
+options.UseSqlite(builder.Configuration.GetConnectionString("ConnectionStrings")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

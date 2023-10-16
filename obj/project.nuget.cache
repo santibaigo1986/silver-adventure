@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FA/CwDZo1bsS6OCgaaVy9tangZqW8Nhgfs7a2l8k+au7bHgu1Orr/8MUiR6/Uif8r2eLfFZ3U63VsTTbdMJ1nA==",
+  "dgSpecHash": "yiQYSwdWOtwWa2BXN8sqqRLJzh3mWIYSizx3+HWoRueZAE5W8HDOeVsPlFjugykIXejhaPthmTiEKhC2uD0gXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Baigo\\OneDrive\\Escritorio\\Analista\\SegundoTrimestre2023\\02-Martes-Herramientas de Programación\\Youtube\\ASP.NET Core MVC\\MaestroDetalleCRUD\\MaestroDetalleCRUD.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\Baigo\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.12\\microsoft.entityframeworkcore.relational.7.0.12.nupkg.sha512",
     "C:\\Users\\Baigo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.12\\microsoft.entityframeworkcore.sqlite.7.0.12.nupkg.sha512",
     "C:\\Users\\Baigo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.12\\microsoft.entityframeworkcore.sqlite.core.7.0.12.nupkg.sha512",
+    "C:\\Users\\Baigo\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.12\\microsoft.entityframeworkcore.tools.7.0.12.nupkg.sha512",
     "C:\\Users\\Baigo\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Baigo\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\Baigo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

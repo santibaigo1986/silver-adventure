@@ -18,12 +18,52 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Baigo\OneDrive\Escritorio\Analista\SegundoTrimestre2023\02-Martes-Herramientas de Programación\Youtube\ASP.NET Core MVC\MaestroDetalleCRUD
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Cliente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Cliente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Cliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Producto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Producto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Producto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Producto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Baigo/OneDrive/Escritorio/Analista/SegundoTrimestre2023/02-Martes-Herramientas de Programación/Youtube/ASP.NET Core MVC/MaestroDetalleCRUD/Views/Shared/Error.cshtml]
