@@ -1,3 +1,4 @@
+using MaestroDetalleCRUD.Models;
 using MaestroDetalleCRUD.Models.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -22,11 +23,38 @@ namespace MaestroDetalleCRUD.Controllers
 
             return View(pedidos);
         }
-
+        
         public async Task<ActionResult> Create()
         {
             ViewBag.Clientes=await _context.Clientes.ToListAsync();
             ViewBag.Productos=await _context.Productos.ToListAsync();
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Create(Pedido pedido, int[] productoIds, int[] cantidades)
+        {
+            
+            var cli= await _context.Clientes.FirstOrDefaultAsync(m=>m.ClienteId==pedido.ClienteId);
+
+            if (cli!=null)
+                pedido.Cliente=cli;
+
+            foreach (var item in productoIds)
+            {
+                var producto=await _context.Productos.FindAsync(item);
+                if (producto!=null)
+                {
+                    pedido.Detalles.Add(new PedidoDetalle
+                    {
+                        ProductoId=item,
+                        Cantidad=cantidades[Array.IndexOf(productoIds, item)],
+                        Producto=producto
+                    });
+                }
+            }
 
             return View();
         }
