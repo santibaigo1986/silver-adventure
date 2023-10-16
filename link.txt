@@ -1,0 +1,2 @@
+ASP.NET Core MVC C♯  CRUD maestro-detalle básico con EntityFramework y SQL (Master-Detail) [2023]
+https://www.youtube.com/watch?v=RU3rhvhS6fE&t=718s
