@@ -53,10 +53,36 @@ namespace MaestroDetalleCRUD.Controllers
                         Cantidad=cantidades[Array.IndexOf(productoIds, item)],
                         Producto=producto
                     });
-                }
+                }   
             }
+            _context.Pedidos.Add(pedido);
+            await _context.SaveChangesAsync();
+            
+            return RedirectToAction(nameof(Index));
+        }
 
-            return View();
+        public async Task<ActionResult> Details (int id)
+        {
+            var pedido= await _context.Pedidos
+            .Include(p=>p.Detalles)
+                .ThenInclude(d=>d.Producto)
+            .Include(p=>p.Cliente)
+            .FirstOrDefaultAsync(p=>p.PedidoId==id);
+
+            if (pedido==null)
+            {
+                return NotFound();
+            }
+            return View(pedido);
+        }
+
+        public async Task<IActionResult> Edit (int id)
+        {
+            var pedido= await _context.Pedidos.FindAsync(id);
+            if (pedido== null)
+                return NotFound();
+            
+            return View(pedido);
         }
     }
 }
